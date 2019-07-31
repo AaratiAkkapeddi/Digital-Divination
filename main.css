@@ -1,0 +1,60 @@
+body{
+	margin:0;
+	font-family: 'Playfair Display', serif;
+	color: whitesmoke;
+	background: #000;
+	letter-spacing: 0.05rem;
+
+	cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="30" style="font-size: 20px;color:whitesmoke;"><text y="15">*</text></svg>'), auto;
+	/*cursor: url('./assets/nat1009.png'), auto;*/
+}
+.header{
+	font-weight: normal;
+	font-size: 100px;
+	text-align: center;
+	text-shadow: 1px 1px 5px whitesmoke;
+/*	cursor: pointer;*/
+	transition: 5s;
+	-webkit-transition: 5s;
+	-moz-transition: 5s;
+	-o-transition: 5s;
+}
+.home span.one{
+	text-shadow: 2px 2px 20px blue;
+}
+.home span.two{
+	text-shadow: 2px 2px 20px red;
+}
+.header:hover{
+	text-shadow: 2px 2px 20px whitesmoke;
+}
+.header a{
+	text-decoration: none;
+	color: whitesmoke;
+}
+p.home{
+	font-size: 60px;
+	line-height: 72px;
+}
+main{
+	max-width: 90%;
+	display: block;
+	margin: 0 auto;
+}
+li a{
+	color: whitesmoke;
+	text-decoration: none;
+	transition: 2s;
+	-webkit-transition: 2s;
+	-moz-transition: 2s;
+	-o-transition: 2s;
+}
+li a:hover{
+	text-shadow: 2px 2px 20px whitesmoke;
+}
+nav li{
+	display: inline;
+	list-style: none;
+	margin: 10px;
+	font-size: 15px;
+}
