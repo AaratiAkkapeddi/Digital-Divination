@@ -4,8 +4,7 @@ body{
 	color: whitesmoke;
 	background: #000;
 	letter-spacing: 0.05rem;
-
-	cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" style="font-size: 120px;color: white;fill: white;stroke-color:white;"><text y="100">☾</text></svg>') 30 50, auto;
+	/* cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" style="font-size: 120px;color: white;fill: white;stroke-color:white;"><text y="100">☾</text></svg>') 30 50, auto; */
 	/*cursor: url('./assets/nat1009.png'), auto;*/
 }
 .header{
@@ -19,10 +18,7 @@ body{
 	-moz-transition: 5s;
 	-o-transition: 5s;
 }
-a{
-	cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" style="font-size: 120px;color: white;fill: white;stroke-color:white;"><text y="100">☾</text></svg>') 30 50, auto;
-	
-}
+
 .home span.one{
 	text-shadow: 2px 2px 20px blue;
 }
